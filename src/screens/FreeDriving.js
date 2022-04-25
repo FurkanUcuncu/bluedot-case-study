@@ -85,7 +85,7 @@ const FreeDriving = ({ navigation }) => {
                         <MapViewDirections
                             origin={origin}
                             destination={destination}
-                            apikey={"AIzaSyC97YLgBoexxNBoLpSn5pktudrwBoVUeek"}
+                            apikey=""
                             strokeWidth={3}
                             strokeColor="blue"
                             onReady={result => {
