@@ -75,7 +75,7 @@ const PickLocation = ({ navigation }) => {
                         <MapViewDirections
                             origin={{ longitude: location.coords.longitude, latitude: location.coords.latitude }}
                             destination={finalDestination}
-                            apikey={"AIzaSyC97YLgBoexxNBoLpSn5pktudrwBoVUeek"}
+                            apikey=""
                             strokeWidth={3}
                             strokeColor="blue"
                             onReady={result => {
