@@ -66,7 +66,7 @@ const TripCard = ({ mile, price, isInProgress, destination }) => {
                         <MapViewDirections
                             origin={{ longitude: location.coords.longitude, latitude: location.coords.latitude }}
                             destination={destination}
-                            apikey={"AIzaSyC97YLgBoexxNBoLpSn5pktudrwBoVUeek"}
+                            apikey=""
                             strokeWidth={3}
                             strokeColor="blue"
                         />
